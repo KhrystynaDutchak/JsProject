@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn_add:hover,
+.btn_edit:hover,
+.btn_save:hover,
+.btn_style:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: rgb(132, 0, 255);
+}
+
+h3 {
+    color: rgb(38, 0, 255);
+}
+
+
+
+h1 {
+    border: 1px solid #000;
+    background-color: lightblue;
+}
+
+.block_haed_show,
+.block_edit_and_style {
+    background-color: rgb(235, 231, 231);
+    min-height: 200px;
+    width: 80%;
+    padding: 25px 35px;
+    margin: 20px auto;
+    border: 1px dotted #eaeef1;
+}
+
+.btn_edit_and_style {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_edit,
+.btn_style,
+.btn_add,
+.btn_save {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.block_edit {
+    display: none;
+}
+
+.btn_edit {
+    background-color: #fcbe01;
+    margin-right: 5px;
+}
+
+.btn_style {
+    background-color: #0592b6;
+}
+
+.editContent {
+    background-color: rgb(218, 211, 211);
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.btn_add {
+    background-color: rgb(250, 135, 69);
+}
+
+.btn_save {
+    background-color: rgb(135, 241, 102);
+}
+
+.block_style {
+    display: none;
+}
+
+.block_style_edit {
+    width: 70%;
+}
+
+
+#colors{
+    width: 120px;
+    height: 120px;
+    outline: 1px solid black;     
+    display: none;
+    flex-wrap: wrap;
+}
+#colors>div{
+    width: 40px;
+     height: 40px;
+}
+
+
+.block_style_p {
+    font-size: 20px;
+    color: #2f3336;
+    font-weight: bold;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.mb:nth-child(2) {
+    margin-top: 15px;
+}
+
+#checkBoxCursiveText {
+    margin-left: 30px;
+}
+
+#IDstyleBloock {
+    padding: 10px 88px;
+}
+
+/* btn colorContentBG */
+#back, #TextColor {
+    padding: 10px 20px;
+    color: white;    
+    border-radius: 10px;
+}
+
+/* add */
+.table {
+    background: linear-gradient(to bottom, #fff 0%, #eaeef1 50%, #fff 100%);
+    min-height: 200px;
+    width: 80%;
+    padding: 25px 35px;
+    margin: 20px auto;
+    border: 1px dotted #eaeef1;
+    display: none;
+}
+
+.h1 {
+    font-size: 30px;
+    color: #2f3336;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 23px;
+    color: #2f3336;
+    font-weight: bold;
+}
+
+.tableFormDisplay,
+.listFormDisplay {
+    display: none;
+}
+
+.tableFormDisplayDiv {
+    display: flex;
+    margin: 5px 0;
+}
+
+.headTextleft,
+.tableFormFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.headTextleft {
+    width: 135px;
+}
+
+.addStyleTable {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addStyleTable:nth-child(1) {
+    margin-right: 50px;
+}
+
+#createTable,
+#createListbtn {
+    padding: 5px 10px;
+    background-color: #0592b6;
+    color: #eaeef1;
+}
+
+TABLE {
+    border-collapse: collapse;
+}
+
+TD,
+TH {
+    border: 1px solid black;
+    text-align: center;
+}
